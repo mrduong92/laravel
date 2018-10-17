@@ -30,4 +30,9 @@ class HomeController extends Controller
     {
         return 'demo';
     }
+
+    public function profile()
+    {
+        return 'profile';
+    }
 }
